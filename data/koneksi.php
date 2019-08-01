@@ -2,9 +2,9 @@
 
 class koneksi {
 	private $db_host = 'localhost';
-	private $db_base = 'id10297522_db_absen';
-	private $db_root = 'id10297522_root';
-	private $db_pass = 'admin';
+	private $db_base = 'db_absen';
+	private $db_root = 'root';
+	private $db_pass = '';
 
 	private $db;
 	private $stmt;
