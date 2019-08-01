@@ -69,7 +69,7 @@ include "header.php";
 
 <?php include "footer.php"; ?>
 <?php
-$conn = mysqli_connect("localhost", "id10297522_root", "admin", "id10297522_db_absen");
+$conn = mysqli_connect("localhost", "root", "", "db_absen");
 
 if (isset($_POST["import"])) {
     
